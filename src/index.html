@@ -1,0 +1,170 @@
+{% extends "_base.html" %}
+{% set titulek = 'StaBau Senec – rodinné domy, pozemné stavby, rekonštrukcie' %}
+{% set cesta = '' %}
+{% set ns = namespace(spolu=0, max=0) %}
+{% for r in data.stavby.roky %}{% set ns.spolu = ns.spolu + r.stavby|length %}{% if r.stavby|length > ns.max %}{% set ns.max = r.stavby|length %}{% endif %}{% endfor %}
+{% block obsah %}
+
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-in">
+    <div class="tabula hero-tabula">
+      <p class="tabula-pas">Stavbu realizuje</p>
+      <div class="tabula-telo">
+        <h1 id="h1">Vy snívate,<br>my staviame.</h1>
+        <p class="perex">Pozemné stavby, rodinné domy a&nbsp;rekonštrukcie. Od projekčnej činnosti cez samotnú realizáciu až po kolaudáciu, so stavebným dozorom a&nbsp;stavbyvedúcim.</p>
+        <dl class="udaje">
+          <div><dt>Zhotoviteľ</dt><dd>{{ site.nazev }}</dd></div>
+          <div><dt>Sídlo a sklad</dt><dd>{{ site.kontakt.adresa.mesto }}, {{ site.kontakt.adresa.ulice }}</dd></div>
+          <div><dt>Na stavbách</dt><dd>od roku 2006</dd></div>
+          <div><dt>Stavby</dt><dd>Bratislava, Senec, Poprad, Kežmarok, Stará Ľubovňa a&nbsp;ďalšie</dd></div>
+        </dl>
+        <div class="akcie">
+          <a class="btn" href="#dopyt">Poslať dopyt</a>
+          <a class="odkaz" href="#stavby">Zoznam našich stavieb</a>
+        </div>
+      </div>
+      <i class="skrutka s1"></i><i class="skrutka s2"></i><i class="skrutka s3"></i><i class="skrutka s4"></i>
+    </div>
+    <figure class="hero-foto">
+      {{ img('g-img-20200215-102339-1.jpg', 'Dokončený rodinný dom s oplotením z tvárnic a levanduľou', sizes='(min-width: 64rem) 55vw, 100vw') }}
+    </figure>
+  </div>
+</section>
+
+<section class="sekce o-nas" id="o-nas" aria-labelledby="h-o-nas">
+  <div class="wrap o-nas-in">
+    <div class="o-nas-text">
+      <p class="nadpis-maly">O nás</p>
+      <h2 id="h-o-nas">Váš partner vo výstavbe</h2>
+      <p class="velky">Pôsobenie na slovenskom stavebnom trhu sa datuje na základe živnostenského oprávnenia majiteľa od roku 2006. Dlhoročné skúsenosti z&nbsp;výstavby budov využívame počas celej doby realizácie.</p>
+      <p>Vieme sa flexibilne prispôsobiť požiadavkám investorov a&nbsp;naším hlavným cieľom je spokojnosť zákazníka s&nbsp;kvalitne vykonanou prácou.</p>
+      <p>Postupne sme prešli aj do developerskej činnosti a&nbsp;začali realizovať vlastné projekty. Tie nám pomohli vžiť sa do situácie investorov a&nbsp;lepšie chápať, čo od stavby potrebujú.</p>
+      <p>S&nbsp;naším pracovným tímom a&nbsp;partnermi zabezpečíme komplexnú dodávku stavby od projekčnej činnosti, cez samotnú realizáciu až po kolaudáciu objektu.</p>
+      <dl class="register">
+        <div><dt>Konateľ</dt><dd>{{ site.konatel }}</dd></div>
+        <div><dt>IČO</dt><dd>{{ site.ico_text }}</dd></div>
+        <div><dt>Predmet podnikania</dt><dd>uskutočňovanie stavieb, stavebný dozor, stavbyvedúci</dd></div>
+      </dl>
+    </div>
+    <div class="o-nas-foto">
+      <figure class="foto-vysoka">{{ img('g-img-cd8aa5a8f27ef2007237.jpg', 'Obchodná budova s terasou na poschodí', sizes='(min-width: 64rem) 30vw, 70vw') }}</figure>
+      <figure class="foto-tabula">
+        {{ img('tabula-stavbu-realizuje.jpg', 'Banner „Stavbu realizuje StaBau“ na rozostavanej stavbe', sizes='(min-width: 64rem) 34vw, 100vw') }}
+        <figcaption>Banner z&nbsp;jednej z&nbsp;našich stavieb.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sekce sluzby" id="sluzby" aria-labelledby="h-sluzby">
+  <div class="wrap">
+    <div class="hlava hlava-riadok">
+      <div>
+        <p class="nadpis-maly">Služby</p>
+        <h2 id="h-sluzby">Od projektu po kolaudáciu</h2>
+      </div>
+      <p>S&nbsp;naším tímom a&nbsp;partnermi dodáme stavbu komplexne. Alebo len tú časť, ktorú potrebujete.</p>
+    </div>
+    <div class="os" role="tablist" aria-label="Fázy stavby">
+      {% for s in data.sluzby %}<button type="button" role="tab" id="tab-{{ s.id }}" aria-controls="faza-{{ s.id }}" aria-selected="{{ 'true' if loop.first else 'false' }}" tabindex="{{ '0' if loop.first else '-1' }}"><i></i>{{ s.nazov }}</button>{% endfor %}
+    </div>
+    {% for s in data.sluzby %}
+    <article class="faza" role="tabpanel" id="faza-{{ s.id }}" aria-labelledby="tab-{{ s.id }}"{% if not loop.first %} hidden{% endif %}>
+      <figure class="faza-foto">{{ img(s.foto, s.alt, sizes='(min-width: 64rem) 55vw, 100vw') }}</figure>
+      <div class="faza-text">
+        <h3>{{ s.titul }}</h3>
+        <p>{{ s.text }}</p>
+        {% if s.polozky %}<ul role="list">{% for p in s.polozky %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
+        {% if not loop.last %}<button type="button" class="dalsia odkaz" data-dalsia="{{ loop.index }}">Ďalej: {{ data.sluzby[loop.index].nazov }}</button>{% else %}<a class="btn" href="#dopyt">Poslať dopyt</a>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+    <aside class="pas-material">
+      <figure>{{ img('debnenie-steny.jpg', 'Betónové steny a stropné debnenie s podperami', sizes='(min-width: 64rem) 30vw, 100vw') }}</figure>
+      <div>
+        <h3>Debnenie a výstuž</h3>
+        <p>Prenajímame stropné a&nbsp;stenové debnenie a&nbsp;predávame betonársku výstuž. Sklad máme v&nbsp;Senci.</p>
+        <a class="btn btn-obrys" href="#dopyt">Opýtať sa na debnenie</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="sekce stavby" id="stavby" aria-labelledby="h-stavby">
+  <div class="wrap">
+    <div class="hlava hlava-riadok">
+      <div>
+        <p class="nadpis-maly">Referencie</p>
+        <h2 id="h-stavby">Zoznam stavieb 2007 – 2019</h2>
+      </div>
+      <p>Rodinné domy na Spiši aj v&nbsp;okolí Senca, bytové domy, obchody, haly aj úsek diaľnice D1. Výber z&nbsp;nášho zoznamu referencií, rok po roku.</p>
+    </div>
+    <label class="filter-vyber">Typ stavby <select>{% for k, v in data.stavby.typy.items() %}{% if loop.first %}<option value="vse">Všetko ({{ ns.spolu }})</option>{% endif %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select></label>
+    <div class="filtre" role="group" aria-label="Filtrovať podľa typu stavby">
+      <button type="button" class="filter" aria-pressed="true" data-typ="vse">Všetko <span>{{ ns.spolu }}</span></button>
+      {% for k, v in data.stavby.typy.items() %}{% set ns2 = namespace(n=0) %}{% for r in data.stavby.roky %}{% for s in r.stavby %}{% if s.typ == k %}{% set ns2.n = ns2.n + 1 %}{% endif %}{% endfor %}{% endfor %}
+      <button type="button" class="filter" aria-pressed="false" data-typ="{{ k }}"><i class="bod t-{{ k }}"></i>{{ v }} <span>{{ ns2.n }}</span></button>{% endfor %}
+    </div>
+    <div class="dennik">
+      <nav class="roky" aria-label="Roky">
+        {% for r in data.stavby.roky %}
+        <a href="#rok-{{ r.rok }}" data-rok="{{ r.rok }}"><b>{{ r.rok }}</b><span class="stlpec" style="--n:{{ (r.stavby|length / ns.max * 100)|round|int }}%"></span><em>{{ r.stavby|length }}</em></a>
+        {% endfor %}
+      </nav>
+      <div class="zapisy">
+        {% for r in data.stavby.roky %}
+        <section class="rok{% if r.rok < 2016 %} starsie{% endif %}" id="rok-{{ r.rok }}" aria-label="Rok {{ r.rok }}">
+          <h3>{{ r.rok }}</h3>
+          <ul role="list">
+            {% for s in r.stavby %}<li data-typ="{{ s.typ }}"><i class="bod t-{{ s.typ }}" title="{{ data.stavby.typy[s.typ] }}"></i>{{ s.nazev }}</li>{% endfor %}
+          </ul>
+        </section>
+        {% endfor %}
+        <button type="button" class="btn btn-obrys viac-rokov" aria-expanded="false">Zobraziť staršie roky 2007 – 2015</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce galeria" id="galeria" aria-labelledby="h-galeria">
+  <div class="wrap">
+    <div class="hlava hlava-riadok">
+      <h2 id="h-galeria">Z našich stavieb</h2>
+      <p>Hrubé stavby, dokončené domy aj komerčné objekty. Fotky kliknutím zväčšíte.</p>
+    </div>
+    <ul class="fotky" role="list">
+      {% for f in data.galeria %}
+      <li class="{% if loop.index in (1, 8) %}velka{% endif %}{% if loop.index > 10 %} skryte{% endif %}">
+        <a href="{{ img_url(f.foto, 1920) }}" data-lightbox aria-label="Zväčšiť: {{ f.alt }}">{{ img(f.foto, f.alt, sizes='(min-width: 64rem) 25vw, 50vw') }}</a>
+        <p>{{ f.alt }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+    <button type="button" class="btn btn-obrys viac-fotiek">Zobraziť všetky fotky ({{ data.galeria|length }})</button>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt" aria-labelledby="h-kontakt">
+  <div class="wrap kontakt-in">
+    <div class="tabula tabula-tmava">
+      <p class="tabula-pas">Kontakt na zhotoviteľa</p>
+      <div class="tabula-telo">
+        <h2 id="h-kontakt">Napíšte nám, čo plánujete stavať</h2>
+        <dl class="udaje">
+          <div><dt>Sídlo a sklad</dt><dd>{{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }}&nbsp;{{ site.kontakt.adresa.mesto }}</dd></div>
+          <div><dt>Telefón</dt><dd><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></dd></div>
+          <div><dt>E-mail</dt><dd><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></dd></div>
+          {% for h in site.hodiny %}<div><dt>{{ h[0] }}</dt><dd>{{ h[1] }}</dd></div>{% endfor %}
+        </dl>
+        <a class="odkaz odkaz-svetly" href="https://www.google.com/maps/search/?api=1&query={{ (site.kontakt.adresa.ulice ~ ', ' ~ site.kontakt.adresa.psc ~ ' ' ~ site.kontakt.adresa.mesto)|urlencode }}" rel="noopener" target="_blank">Navigovať do Senca</a>
+      </div>
+      <i class="skrutka s1"></i><i class="skrutka s2"></i><i class="skrutka s3"></i><i class="skrutka s4"></i>
+    </div>
+    <div class="dopyt" id="dopyt">
+      <h3>Dopyt</h3>
+      <p>Napíšte, o&nbsp;akú stavbu ide a&nbsp;kde. V&nbsp;krátkom čase Vás budeme kontaktovať.</p>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

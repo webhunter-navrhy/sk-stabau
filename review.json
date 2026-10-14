@@ -1,0 +1,15 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Hero na PC (buňky 1–2): jako hlavní fotka je obyčejný snímek z mobilu, kde je před domem plot a popelnice, a na 1440 px je tlačítko „Poslať dopyt“ pod ohybem (v buňce 2 je useknuté). V buňce 1 jsou navíc pod kartou zbytky prvků (tečky vlevo dole, modrá linka pod fotkou), které vypadají jako indikátor slideru. Oprava: do hero dát nejsilnější fotku, tedy rozestavěné domy s Tatrami (foto „Rozostavané rodinné domy“), zmenšit h1 a odstup karty tak, aby se CTA vešlo do první obrazovky, a zbytky prvků pod kartou odstranit.",
+    "Sekce Služby (PC buňka 4, mobil buňky 4–5): stepper Projekt / Realizácia / Dozor / Kolaudácia ukazuje vždy jen jednu fázi s jedinou odrážkou („Zabezpečenie projekčnej činnosti“). Zbylé služby z briefu (celkem 9) jsou schované za klikáním a na mobilu se stepper rozpadá do mřížky 2×2, kde přestává fungovat jako časová osa. Oprava: ukázat všechny 4 fáze najednou jako jeden pás stavby (fotka, název fáze a 2–3 služby z briefu u každé) a na mobilu je dát pod sebe se svislou čarou místo záložek.",
+    "Referencie (PC buňka 6): vlevo je dlouhý sloupec let 2019–2007, vpravo jen 11 položek roku 2019 ve třech úzkých sloupcích a pod nimi asi 300 px prázdna, než začne galerie. Sekce působí nedodělaně. Oprava: k vybranému roku vpravo doplnit 2–3 fotky stavieb z galerie nebo výšku pravého sloupce sladit se seznamem let. Na mobilu (buňka 7) dát na vodorovně posuvné čipy let fade na pravém okraji, aby bylo poznat, že jde posouvat."
+  ],
+  "silne": [
+    "Koncept stavební tabule („Stavbu realizuje“, šroubky v rozích karty, blok „Kontakt na zhotoviteľa“) vychází přímo z oboru a z banneru na fotce klienta a táhne se celým webem.",
+    "Brand drží: logo StaBau vlevo v hlavičce, paleta z modré loga s tmavě modrou, fotky jsou jen z vlastních staveb firmy.",
+    "Obsah je pravdivý a podložený briefem: ORSR údaje, od roku 2006, 198 referencí podle roků, žádná převzatá počítadla ze šablony.",
+    "Mobil je čistý: nic nepřetéká, telefon je v hlavičce, formulář má velká pole a patička obsahuje všechny kontakty."
+  ],
+  "verdikt": "Solidní redesign se skutečným oborovým nápadem a správným brandem, ale slabá hero fotka, jen poloviční sekce Služby a prázdné místo v Referenciách ho drží pod hranicí pro odeslání. Opravit tyto tři body, pak je to na 8."
+}

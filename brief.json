@@ -1,0 +1,385 @@
+{
+ "slug": "sk-stabau",
+ "zdroj_url": "https://www.stabau.sk",
+ "firma": "StaBau Construction s. r. o.",
+ "obor": [
+  "stavebníctvo: pozemné stavby, rodinné domy, rekonštrukcie, stavebný dozor, stavbyvedúci, prenájom debnenia, predaj výstuže"
+ ],
+ "ico": "53448642",
+ "ares": {
+  "chyba": "ARES HTTP 404"
+ },
+ "kontakty": {
+  "emaily": [
+   "info@stabau.sk"
+  ],
+  "telefony": [
+   "+421 902 584 618"
+  ],
+  "adresa": "Ulica pri Čiernej vode 5984/1, 903 01 Senec (sídlo a sklad; web + ORSR)",
+  "socialni_site": [],
+  "otvaracie_hodiny": "Po–Pi 9:00–17:00, So–Ne zatvorené (stabau.sk)"
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.stabau.sk/wp-content/uploads/2020/03/logo-e1584978316733.png",
+  "rozmery": [
+   103,
+   80
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#e86240",
+   "#1ea0c3",
+   "#003388",
+   "#e94c89",
+   "#02e49b",
+   "#ff9900"
+  ],
+  "z_loga": [
+   "#27a4de"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#27a4de",
+   "#e86240",
+   "#1ea0c3"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-20181026-WA0004-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20170331_135650-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20170331_135729-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20170331_135758-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-d572a5654ad051f43c0df52ea4a7b003-V-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-06.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMAG1131-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-07.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20170331_135824-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-08.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/stabau-6-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-09.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/stabau-9-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-10.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/stabau-4-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-11.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2590_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-12.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2496_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-13.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2495_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-14.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/stabau-1-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-15.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2356_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-16.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2315_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-17.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_2268_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-18.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_0938_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-19.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_1993_cr-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-20.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/DSC_3457-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-21.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200215_102328_8-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-22.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200215_102339_1-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-23.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20190330_123002_0-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-24.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_121213_8-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-25.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_121222_1-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-26.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_121232_3-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-27.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_121301_3-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-28.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_144926_9-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-29.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-20191217-WA0003-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-30.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-20191217-WA0004-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-31.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-20191217-WA0001-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-32.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_145706_7-2-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-33.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_144944_4-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-34.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200215_102605_3-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-35.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_145802_9-2-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-36.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200215_102558_3-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-37.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG_20200219_145819_5-2-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-38.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-08d20ee331887c6c4eadcf6cd4d765c0-V-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-39.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-d8242bbe2668140020f5b40c1d07dba4-V-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-40.jpg",
+   "url": "https://www.stabau.sk/wp-content/uploads/2020/03/IMG-cd8aa5a8f27ef20072377415652d02a3-V-1-538x280.jpg",
+   "sirka": 538,
+   "vyska": 280,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "fakt": "StaBau Construction s. r. o., IČO 53 448 642, sídlo Ulica pri Čiernej vode 5984/1, Senec, konateľ Peter Staviarsky",
+   "zdroj": "orsr.sk výpis ID 557622"
+  },
+  {
+   "fakt": "Predmet podnikania: uskutočňovanie stavieb, stavebný dozor, stavbyvedúci, prípravné a dokončovacie práce",
+   "zdroj": "orsr.sk"
+  },
+  {
+   "fakt": "IČ DPH SK2121384760",
+   "zdroj": "podpis e-mailu P. Staviarskeho 13. 10. 2026"
+  },
+  {
+   "fakt": "Na trhu od roku 2006 (živnosť majiteľa), developerská činnosť, komplexná dodávka od projekcie po kolaudáciu",
+   "zdroj": "stabau.sk/O nás"
+  },
+  {
+   "fakt": "9 služieb (realizácia pozemných stavieb, rekonštrukcie, stavebné úpravy adm. budov, RD, projekčná činnosť, stavebný dozor, stavbyvedúci, prenájom debnenia, predaj výstuže)",
+   "zdroj": "stabau.sk Naše služby"
+  },
+  {
+   "fakt": "Zoznam referencií 2007–2019 (198 položiek, roky 2007–2019)",
+   "zdroj": "stabau.sk WP posty 1326–1351"
+  },
+  {
+   "fakt": "Telefón +421 902 584 618, info@stabau.sk, Po–Pi 9–17",
+   "zdroj": "stabau.sk kontakt"
+  },
+  {
+   "fakt": "Fotky stavieb 27 ks + banner „Stavbu realizuje StaBau“",
+   "zdroj": "stabau.sk galéria (wp-content/uploads/2020/03)"
+  }
+ ],
+ "chybi": [
+  "ktorá firma má byť na webe – StaBau Construction s. r. o. (IČO 53448642) alebo StaBau spol. s r.o. (IČO 46576461), obe Senec",
+  "referencie po roku 2019 a fotky novších stavieb",
+  "popisy alebo názvy k fotkám (ktorá stavba je na ktorej fotke)",
+  "fotka tímu / konateľa (voliteľne)"
+ ],
+ "popis_webu": "",
+ "mesto": "Senec (stavby po celom Slovensku, hlavne Spiš/Poprad a Bratislava–Senec)",
+ "ton": "vecný, stavebný; claim „vy snívate, my staviame“",
+ "brand": {
+  "logo": "static/logo.svg (potrace z logo.png 453×351, modrá #27a4de), logo-biele.svg",
+  "barvy": [
+   "#27a4de (logo)",
+   "#e86240 (akcent pôvodného webu)"
+  ],
+  "claim": "vy snívate, my staviame / zmeňte svoje sny na skutočnosť"
+ },
+ "nepouzite": "Počítadlá z pôvodného webu (137 projektov, 98 % hodnotenie, 30 fitoutov) – bez zdroja, šablóna témy Screenr; čiernobiele fotky (Bratislava z dronu, žeriavy, mrakodrap) – nejasný pôvod."
+}

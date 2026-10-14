@@ -1,0 +1,72 @@
+{
+  "slug": "sk-stabau",
+  "nazev": "StaBau Construction s. r. o.",
+  "kratky_nazev": "StaBau",
+  "url": "https://webhunter-navrhy.github.io/sk-stabau/",
+  "base": "/sk-stabau/",
+  "lang": "sk",
+  "popis": "StaBau zo Senca: pozemné stavby, rodinné domy a rekonštrukcie od projektu cez realizáciu až po kolaudáciu. Stavebný dozor, stavbyvedúci, debnenie a výstuž.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "g-img-20200215-102339-1.jpg",
+  "logo": "logo.svg",
+  "theme_color": "#ffffff",
+  "typ": "GeneralContractor",
+  "ico": "53448642",
+  "ico_text": "53 448 642",
+  "ic_dph": "SK2121384760",
+  "konatel": "Peter Staviarsky",
+  "claim": "Vy snívate, my staviame.",
+  "kontakt": {
+    "email": "info@stabau.sk",
+    "telefon": "+421 902 584 618",
+    "adresa": {
+      "ulice": "Ulica pri Čiernej vode 5984/1",
+      "psc": "903 01",
+      "mesto": "Senec",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [
+    "Mo-Fr 09:00-17:00"
+  ],
+  "hodiny": [
+    [
+      "Pondelok – piatok",
+      "9:00 – 17:00"
+    ],
+    [
+      "Sobota a nedeľa",
+      "zatvorené"
+    ]
+  ],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt z webu stabau.sk"
+  },
+  "nav": [
+    {
+      "text": "O nás",
+      "href": "#o-nas"
+    },
+    {
+      "text": "Služby",
+      "href": "#sluzby"
+    },
+    {
+      "text": "Stavby",
+      "href": "#stavby"
+    },
+    {
+      "text": "Galéria",
+      "href": "#galeria"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

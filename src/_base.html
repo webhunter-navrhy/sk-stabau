@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titulek or site.nazev }}</title>
+<meta name="description" content="{{ popis or site.popis }}">
+{% if site.navrh or noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<meta name="theme-color" content="{{ site.theme_color }}">
+<link rel="canonical" href="{{ site.url }}{{ cesta or '' }}">
+<link rel="icon" href="{{ base }}logo.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{ 'cs_CZ' if site.lang == 'cs' else ('sk_SK' if site.lang == 'sk' else site.lang) }}">
+<meta property="og:title" content="{{ titulek or site.nazev }}">
+<meta property="og:description" content="{{ popis or site.popis }}">
+<meta property="og:url" content="{{ site.url }}{{ cesta or '' }}">
+{% if og_url %}<meta property="og:image" content="{{ og_url }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">{% endif %}
+<link rel="preload" href="{{ base }}fonts/oswald-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ asset('css/fonts.css') }}">
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% block head %}{% endblock %}
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+<header class="hlavicka">
+  <div class="wrap hlavicka-in">
+    <a href="{{ url('') }}" class="logo" aria-label="{{ site.kratky_nazev }} – úvod"><img src="{{ base }}{{ site.logo }}" alt="{{ site.kratky_nazev }}" width="86" height="64"></a>
+    <a class="volat" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}" aria-label="Zavolať {{ site.kontakt.telefon }}"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="vh">Menu</span></button>
+    <nav id="menu" class="menu" aria-label="Hlavné menu">
+      {% for n in site.nav %}<a href="{{ n.href }}">{{ n.text }}</a>{% endfor %}
+      <a class="btn btn-mala" href="#dopyt">Poslať dopyt</a>
+    </nav>
+  </div>
+</header>
+<main id="obsah">
+{% block obsah %}{% endblock %}
+</main>
+<footer class="paticka">
+  <div class="wrap paticka-in">
+    <img src="{{ base }}logo-biele.svg" alt="{{ site.kratky_nazev }}" width="96" height="72">
+    <div>
+      <p><strong>{{ site.nazev }}</strong><br>{{ site.kontakt.adresa.ulice }}, {{ site.kontakt.adresa.psc }}&nbsp;{{ site.kontakt.adresa.mesto }}</p>
+      <p>IČO {{ site.ico_text }} · IČ DPH {{ site.ic_dph }}</p>
+    </div>
+    <div>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+      <p class="claim">{{ site.claim }}</p>
+    </div>
+  </div>
+</footer>
+<script src="{{ asset('js/main.js') }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+dist/
+.cache/
+qa/
+__pycache__/
+_research/
+podklady/
+.cache/
+dist/
+_snimky/

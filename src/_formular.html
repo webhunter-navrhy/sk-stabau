@@ -1,0 +1,25 @@
+{# Formulár dopytu. Endpoint a demo režim z _data/site.json (formular.endpoint, formular.demo). #}
+<form class="formular" method="post" {% if site.formular.endpoint and not site.formular.demo %}action="{{ site.formular.endpoint }}"{% endif %} data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}">
+  <label>Meno a priezvisko <input name="meno" autocomplete="name" required></label>
+  <div class="dva">
+    <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+    <label>Telefón <input name="telefon" type="tel" autocomplete="tel"></label>
+  </div>
+  <label>Typ stavby
+    <select name="typ">
+      <option>Rodinný dom</option>
+      <option>Bytový alebo polyfunkčný dom</option>
+      <option>Komerčná alebo administratívna budova</option>
+      <option>Rekonštrukcia</option>
+      <option>Stavebný dozor / stavbyvedúci</option>
+      <option>Prenájom debnenia / výstuž</option>
+      <option>Iné</option>
+    </select>
+  </label>
+  <label>Miesto stavby <input name="miesto" placeholder="napr. Senec"></label>
+  <label>Správa <textarea name="sprava" rows="5" required placeholder="Čo plánujete, v akej fáze je projekt, kedy chcete začať"></textarea></label>
+  <div class="past" aria-hidden="true"><label>Nevypĺňať <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+  <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+  <button type="submit" class="btn">Odoslať dopyt</button>
+  <p class="formular-stav" role="status" aria-live="polite"></p>
+</form>

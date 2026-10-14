@@ -1,0 +1,869 @@
+{
+ "zdroj": "stabau.sk – Referencie 2007–2019",
+ "typy": {
+  "domy": "Rodinné domy",
+  "byty": "Bytové a polyfunkčné domy",
+  "firmy": "Firmy, obchody a verejné stavby",
+  "infra": "Infraštruktúra a betón",
+  "rekon": "Rekonštrukcie a úpravy"
+ },
+ "roky": [
+  {
+   "rok": 2019,
+   "stavby": [
+    {
+     "nazev": "Hotel Mamut, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Bytový dom Kežmarok",
+     "typ": "byty"
+    },
+    {
+     "nazev": "RD Rovinka",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Výstavba D1 Hričovské Podhradie – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "RD Liptovský Peter",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Stavebné úpravy showroom, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Matejovce",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Polyfunkcia pri maxe, Poprad",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Prístavba predajne Toyota, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "RD Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Poprad",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2018,
+   "stavby": [
+    {
+     "nazev": "Mamut pub, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Dvojdom mlynský klin, Senec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Výstavba D1 Hričovské Podhradie – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rekonštrukcia prevádzky, Poprad",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Veľký Slávkov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Tatranská Štrba",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Liptovský Peter",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Nová Lesná",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Štrba",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Hotel Mamut, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Šachty, pätky a kolektory Bratislava",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Obchodné priestory predajne Rovinka",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Základová doska pre umývarku, Bratislava",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Bytový dom Kežmarok",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Rodinný dom Rovinka",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2017,
+   "stavby": [
+    {
+     "nazev": "Predajňa Cyklomax, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Dvojdom mlynský klin, Senec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Budmerice",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Nová Baňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Výstavba D1 Hričovské Podhradie – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Administratívna budova Kežmarok",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Dostavba školy Tatranská akadémia",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Prestavba RD Spišská Teplica",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Úpravy na spevnených plochách Autopolis Bratislava",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Opravy balkónov Rusovce",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Dvojdom Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Mamut pub, Poprad",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Interiérové úpravy predajne Autopolis Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Chorvátsky Grob",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Šachty, pätky a kolektory Bratislava",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Bytový dom Veľký Šariš",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Radová výstavba Crazy 6 radových domov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Veľký Slávkov",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2016,
+   "stavby": [
+    {
+     "nazev": "Rekreačná chata Jarabina",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Nová Lesná",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Betónová oporná stena Stará Ľubovňa",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Betónová oporná stena Kežmarok",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Betónová šachta Nová Ľubovňa",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Betónový plot Svit",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Radová výstavba Crazy 6 radových domov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Prístavba k RD v KK",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Dubina",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Forbasy",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Polyfunkčný objekt KK",
+     "typ": "byty"
+    },
+    {
+     "nazev": "RD Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Spišská Sobota 4 radové domy",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcie balkónov",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Senec Vajanského",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Senec Juh",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia kancelárie Račianska, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Výstavba D1 Hričovské Podhradie – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Obklady a dlažby v kanceláriach Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Nová Baňa",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2015,
+   "stavby": [
+    {
+     "nazev": "Polyfunkčný objekt Vordent Poprad",
+     "typ": "byty"
+    },
+    {
+     "nazev": "RD Kravany",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Smokovec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Harichovce",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Veľká Lomnica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Senec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Gerlachov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Betónová stena Vyšné Hágy",
+     "typ": "infra"
+    },
+    {
+     "nazev": "RD Hozelec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Leštená podlaha Svit",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Kravíny Poniky",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "RD Nová Lesná",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Kežmarok",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia bytu Nové mesto, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "RD Veľký Slávkov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia zasadačky Ružinov, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Prístavba stavebniny Tinea Stará Ľubovňa",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Polyfunkčný objekt Kežmarok",
+     "typ": "byty"
+    },
+    {
+     "nazev": "RD Nová Lesná",
+     "typ": "domy"
+    },
+    {
+     "nazev": "SDK konštrukcie Autocentrum Panónska, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Výstavba D1 Hričovské Podhradie – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Salaš Stará Ľubovňa Vábec",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "4 Radové domy Spišská Sobota",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2014,
+   "stavby": [
+    {
+     "nazev": "Rekonštrukcia bytu Ružinov, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rodinný dom, Veľký Slávkov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia bytu Dúbravka, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Základová doska, Veľká Lomnica",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rodinný dom, Košice",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Hozelec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Budmerice",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Výstavba D1, Hričov – Lietavská Lúčka",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rodinný dom, Hozelec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Základová doska RD Záborské",
+     "typ": "infra"
+    },
+    {
+     "nazev": "RD Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Bratislava",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Hniezdne",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Nová Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Chmelnica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Hozelec",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Sabinov",
+     "typ": "domy"
+    },
+    {
+     "nazev": "RD Kravany",
+     "typ": "domy"
+    }
+   ]
+  },
+  {
+   "rok": 2013,
+   "stavby": [
+    {
+     "nazev": "Oporná stena, Chmelnica",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Golf Resort Viladomy, Senica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Hniezdne",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Oporná stena, Vyšné Ružbachy",
+     "typ": "infra"
+    },
+    {
+     "nazev": "St. George 12 Rodinných domov, Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rezidencia, Záhorská Bystrica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Betónové oplotenie, Senec",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Garáž, Kežmarok",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Penzión, Nová Lesná",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Rodinný dvojdom, Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia Autocentrum Panónska, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rodinný dom, Nová Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Prístavba k rodinnému domu, Vyšné Ružbachy",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Koliba na Vabci, Stará Ľubovňa",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Betónový plot z okrasných tvárnic, Zálesie",
+     "typ": "infra"
+    },
+    {
+     "nazev": "SDK deliaca stena, Autocentrum Panónska, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rekonštrukcia balkónov Rusovce, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rekonštrukcia haly Pestovateľská, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rekonštrukcia železničná trať, Ladce – Belúša",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Zateplenie vysunutia, Autocentrum Panónska, Bratislava",
+     "typ": "rekon"
+    }
+   ]
+  },
+  {
+   "rok": 2012,
+   "stavby": [
+    {
+     "nazev": "Predajňa Omrvinka, Stará Ľubovňa",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Rodinný dom, Plavnica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Kežmarok",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Spišská Belá",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Zálesie",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Chmelnica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Spišská Sobota",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Vodomerná šachta, Spišská Sobota",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Garáž a pivnica, Chmelnica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Betonárka Betos oporná stena, Stará Ľubovňa",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rekonštrukcia železničná trať, Ilava – Ladce",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rodinný dom, Mlynčeky",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Zateplenie bytu Pražská ul., Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rekonštrukcia pekárne, Podolínec",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rodinný dom, Pezinok",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Golf Resort Viladomy, Senica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rekonštrukcia bytu, Dlhé Diely, Bratislava",
+     "typ": "rekon"
+    }
+   ]
+  },
+  {
+   "rok": 2011,
+   "stavby": [
+    {
+     "nazev": "Garáž s pivnicou, Spišská Sobota, Poprad",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Krajčírska dielňa, Stará Ľubovňa",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Administratívna budova a sklad, Chmelnica",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Rodinný dom, Stará Ľubovňa",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Oporný múr, Velké Popovice, Praha",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rodinný dom, Huncovce",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Materská škôlka, Kamienka",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Rekonštrukcia železničná trať, Trenčianska Teplá – Ilava",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Rodinný dom, Mlynica",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Polyfunkčný objekt Rubicon, Poprad",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Rekonštrukcia pekárne, Stará Ľubovňa",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Rekonštrukcia Rezidencia, Ďurková",
+     "typ": "rekon"
+    }
+   ]
+  },
+  {
+   "rok": 2010,
+   "stavby": [
+    {
+     "nazev": "Rodinný dom, Svidník",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Rodinný dom, Sečovce",
+     "typ": "domy"
+    },
+    {
+     "nazev": "Polyfunkčný objekt Concept, Svidník",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Rekonštrukcia železničná trať, Trenčianska Teplá",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Administratívna budova a sklad, Chmelnica",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Rezidencia Hýža, Šenov u Havířova",
+     "typ": "byty"
+    }
+   ]
+  },
+  {
+   "rok": 2009,
+   "stavby": [
+    {
+     "nazev": "Integrované Centrum, Ostrava",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Bytový dom, Pezinok",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Rekonštrukcia RAJO, Bratislava",
+     "typ": "rekon"
+    },
+    {
+     "nazev": "Bytové jednotky, Frýdek – Místek",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Komerční centrum Panorama, Frýdek – Místek",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Komunikácia na sídlisko Rozkvet, Považská Bystrica",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Autocentrum Panónska, Bratislava",
+     "typ": "firmy"
+    }
+   ]
+  },
+  {
+   "rok": 2008,
+   "stavby": [
+    {
+     "nazev": "Obaľovačka a betonáreň, Žilina",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Areál bytových objektov Kbely, Praha",
+     "typ": "byty"
+    },
+    {
+     "nazev": "MPM Quality v.o.s., Frýdek-Místek",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Bytové objekty Pavlíková, Frýdek-Místek",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Autosalón, Frýdek-Místek",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Hala Makové Náplně, Kroměříž",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Komunikácia na sídlisko Rozkvet, Považská Bystrica",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Základy Rezidencia Oščadnica",
+     "typ": "infra"
+    },
+    {
+     "nazev": "Hala Energomont, Žilina",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Hasičská zbrojnica, Ostrava",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Polyfunkčný dom Major, Bratislava",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Komerční centrum Panorama, Frýdek-Místek",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Bytový dom, Pezinok",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Hyundai Motor Czech Mobis, Nošovice",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Green Park, Bratislava",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Obchodný dom Globus, Ostrava",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Obytný súbor Mierová, Bratislava",
+     "typ": "byty"
+    },
+    {
+     "nazev": "Polyfunkčný dom AHOJ, Bratislava",
+     "typ": "byty"
+    }
+   ]
+  },
+  {
+   "rok": 2007,
+   "stavby": [
+    {
+     "nazev": "Hyundai Motor Czech So 300 Nošovice",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Milady Horákove, Brno",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "Hyundai Motor Czech So 210 Nošovice",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "ECE Arkády, Praha",
+     "typ": "firmy"
+    },
+    {
+     "nazev": "RD Žebětín, Brno",
+     "typ": "domy"
+    }
+   ]
+  }
+ ]
+}

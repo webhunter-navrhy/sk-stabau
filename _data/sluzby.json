@@ -1,0 +1,48 @@
+[
+ {
+  "id": "projekt",
+  "nazov": "Projekt",
+  "titul": "Projekt a príprava stavby",
+  "foto": "zakladova-doska-2.jpg",
+  "alt": "Betónová doska s pripravenou výstužou na rozostavanom dome",
+  "text": "Projekčnú činnosť zabezpečíme cez našich partnerov ako súčasť komplexnej dodávky stavby.",
+  "polozky": [
+   "zabezpečenie projekčnej činnosti"
+  ]
+ },
+ {
+  "id": "realizacia",
+  "nazov": "Realizácia",
+  "titul": "Realizácia stavby",
+  "foto": "hruba-stavba-lesenie.jpg",
+  "alt": "Rodinný dom vo výstavbe s lešením",
+  "text": "Rodinné domy, bytové a polyfunkčné domy aj komerčné budovy. Staviame nové a rekonštruujeme existujúce.",
+  "polozky": [
+   "kompletná realizácia pozemných stavieb",
+   "realizácia rodinných domov",
+   "rekonštrukcie a renovácie budov",
+   "stavebné úpravy administratívnych budov"
+  ]
+ },
+ {
+  "id": "dozor",
+  "nazov": "Dozor",
+  "titul": "Stavbyvedúci a stavebný dozor",
+  "foto": "g-stabau-9.jpg",
+  "alt": "Rozostavaný polyfunkčný objekt s bannerom StaBau",
+  "text": "Vykonávame činnosť stavbyvedúceho aj stavebného dozoru, aby stavba prebiehala podľa projektu a predpisov.",
+  "polozky": [
+   "výkon činnosti stavbyvedúceho",
+   "výkon činnosti stavebného dozoru"
+  ]
+ },
+ {
+  "id": "kolaudacia",
+  "nazov": "Kolaudácia",
+  "titul": "Až po kolaudáciu",
+  "foto": "hotovy-dom.jpg",
+  "alt": "Dokončený rodinný dom s oplotením z tvárnic",
+  "text": "Stavbu dodáme od projekčnej činnosti, cez samotnú realizáciu až po kolaudáciu objektu.",
+  "polozky": []
+ }
+]
