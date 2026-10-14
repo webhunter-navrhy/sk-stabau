@@ -1,10 +1,8 @@
 {
-  "url": "http://localhost:37526/sk-stabau/",
+  "url": "https://webhunter-navrhy.github.io/sk-stabau/",
   "ok": true,
   "chyby": [],
-  "varovani": [
-    "Web má noindex (u ostrého webu pravděpodobně chyba)"
-  ],
+  "varovani": [],
   "metriky": {
     "sirky": {
       "1440": {
@@ -32,16 +30,16 @@
         "pocet_pretekajicich": 0
       }
     },
-    "preneseno_PC_MB": 0.94,
+    "preneseno_PC_MB": 0.8,
     "nejvetsi_obrazek_PC": {
       "kB": 175,
-      "url": "http://localhost:37526/sk-stabau/img/g-img-20200215-102339-1-1280.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-stabau/img/g-img-20200215-102339-1-1280.webp"
     },
     "snimku_PC": 8,
-    "preneseno_mobil_MB": 1.01,
+    "preneseno_mobil_MB": 0.88,
     "nejvetsi_obrazek_mobil": {
       "kB": 175,
-      "url": "http://localhost:37526/sk-stabau/img/g-img-20200215-102339-1-1280.webp"
+      "url": "https://webhunter-navrhy.github.io/sk-stabau/img/g-img-20200215-102339-1-1280.webp"
     },
     "snimku_mobil": 11,
     "seo": {
